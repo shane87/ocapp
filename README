@@ -1,0 +1,18 @@
+OC Mod Control/ocapp -  The oc module control app for the Samsung Galaxy S Captivate on the Talon kernel
+Copyright (c) 2011 Eric Clothier
+
+This program is free software; you can redistribute it and/or
+modify it under the terms of the GNU General Public License
+as published by the Free Software Foundation; either version 2
+of the License, or (at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with this program; if not, write to the Free Software
+Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
+
+OC Mod Control/ocapp (ocapp) is an app designed to allow users an much more streamlined and intuitive way to control the oc module built in to the Talon kernel for the Samsung Captivate. Ocapp provides a minimalistic user interface designed to promote ease of use. The interface is stripped down to the most necessary of controls, basically a drop down for selecting/displaying the oc level, a button to Apply settings on the fly, and a button to Save the settings to be applied at future boots. There is also a text display that provides tips/instructions. When the user launches ocapp, it will determine the currently applied oc level and display that in the dropdown menu. The user may then select their new oc level, and immediately begin using it by pushing "Apply." Pushing apply will reset the undervolt value for the top frequency, which is the one being changed, then it will apply the new oc level. By pressing "Save" the user will save an init.d script to automatically apply their chosen oc level any time the phone is turned on. Pushing save will erase any previous ocapp-created oc scripts, then it will delete any saved oc/uv scripts, as saved by VC/CF, before generating a new init.d script and saving it into the /etc/init.d folder. The step of removing any VC/CF oc/uv scripts is to prevent accidentally applying a bad uv value at the next boot.

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, OCAppActivity!</string>
+    <string name="app_name">OC Mod Control</string>
+    <string name="applyBtnTxt">Apply</string>
+    <string name="saveBtnTxt">Save</string>
+    <string name="tipTextViewTxt">Tip:\nSelect the desired overclock frequency from the dropdown at the top. Then press \&quot;Apply\&quot; to instantly activate the chosen overclock frequency. If you would like to make this overclock frequency apply at each future reboot, press \&quot;Save.\&quot;\n\nNote:\nBy pressing \&quot;Apply,\&quot; the current undervoltage setting for the overclock frequency WILL be reset! Please launch Control Freak, Voltage Control, or your favorite oc/uv app to re-apply the undervolt setting.\n\nPressing \&quot;Save\&quot; will remove your previously saved oc/uv settings, to prevent improper application of oc/uv values at the next boot. Please launch Control Freak, Voltage Control, or your favorite oc/uv app to re-apply/re-save your desired settings.</string>
+    <string name="ocspinTextViewTxt">Frequency:</string>
+</resources>

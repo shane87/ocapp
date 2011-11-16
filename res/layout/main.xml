@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/ocspinTextView" android:text="@string/ocspinTextViewTxt"></TextView>
+    <Spinner android:layout_width="match_parent" android:layout_height="wrap_content" android:id="@+id/ocSpinner"></Spinner>
+    <RelativeLayout android:id="@+id/relativeLayout1" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <Button android:layout_height="wrap_content" android:layout_alignParentTop="true" android:layout_alignParentLeft="true" android:layout_width="200px" android:id="@+id/applyBtn" android:text="@string/applyBtnTxt"></Button>
+        <Button android:layout_height="wrap_content" android:layout_alignParentTop="true" android:layout_toRightOf="@+id/button1" android:layout_width="200px" android:layout_alignParentRight="true" android:layout_marginLeft="40px" android:id="@+id/saveBtn" android:text="@string/saveBtnTxt"></Button>
+    </RelativeLayout>
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/tipTextView" android:text="@string/tipTextViewTxt"></TextView>
+</LinearLayout>
